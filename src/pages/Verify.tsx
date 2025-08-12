@@ -10,6 +10,7 @@ export default function Verify() {
     if (!email) {
       navigate("/");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [email]);
 
   return (
